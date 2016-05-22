@@ -12,8 +12,10 @@
     tools:context="edu.uw.info498b.feast.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+<GridView
+    android:id="@+id/feast_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:verticalSpacing="20dp"/>
+
 </RelativeLayout>
